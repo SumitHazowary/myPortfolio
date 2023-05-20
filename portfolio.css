@@ -1,0 +1,75 @@
+body {
+    background-color: white;
+}
+
+#Heading-Section {
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("images/david-werbrouck-5GwLlb-_UYk-unsplash.jpg");
+}
+
+.myText {
+    letter-spacing: 2.5vw;
+    font-size: calc(1rem + 3.5vw);
+}
+
+.myText:hover {
+    background: linear-gradient(90deg, transparent, rgba(131, 223, 208, 0.306), transparent);
+    animation: myAnimation 10s ease-in-out infinite;
+}
+
+@keyframes myAnimation {
+    0% {
+        background-position: 0px 0px;
+    }
+    50% {
+      background-position: 510px 0px;
+    }
+    100% {
+      background-position: 0px 0px;
+    }
+}
+
+.carousel-caption > * {
+    font-size: 0.875rem;
+    text-shadow: 0px 0px 3px black;
+    margin-bottom: 0;
+}
+
+.myFontSize {
+    font-size: calc(2.4rem + 3.5vw);
+}
+
+.myTextBg {
+    background-color: rgba(232, 232, 232, 0.13) !important;
+}
+
+.myBg {
+    position: relative;
+    min-height: 600px;
+    background-color: black;
+    transform: skew(0deg, 20deg) translateY(-266px);
+    z-index: -1;
+}
+
+.myBgColor {
+    transform: skew(0deg, -20deg) translateY(345px);
+}
+
+.myBg2 {
+    position: relative;
+    min-height: 600px;
+    background-color: black;
+    transform: skew(0deg, -25deg) translateY(340px);
+    z-index: -1;
+}
+
+.myBgColor2 {
+    transform: skew(0deg, 25deg) translateY(-360px);
+}
+
+.myScale:hover {
+    transform: scale(1.006);
+    transition: 0.3s ease-in-out;
+}
