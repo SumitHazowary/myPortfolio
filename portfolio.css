@@ -77,10 +77,6 @@ body {
 }
 
 @media (max-width: 420px) {
-    body {
-        background-color: skyblue;
-    }
-
     .myBgColor2 img.m-5 {
         margin: 20px 0 !important;
         width: 150px !important;
